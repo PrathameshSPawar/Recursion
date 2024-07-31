@@ -1,9 +1,10 @@
 # Recursion
+
+
 import java.util.*;
-public class Recursion
-{
+public class Recursion{
 //Basically this function create a arrays triangle
-static void triangle1(int arr[])
+        static void triangle1(int arr[])
 	{
 		if(arr.length<1)
 		{
