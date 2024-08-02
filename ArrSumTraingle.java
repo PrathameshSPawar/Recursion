@@ -1,4 +1,6 @@
-static void triangle1(int arr[])
+public class Triangle 
+{
+	static void triangle1(int arr[])
 	{
 		if(arr.length<1)
 		{
@@ -13,3 +15,4 @@ static void triangle1(int arr[])
 		triangle1(newArr);
 		System.out.println(Arrays.toString(arr));
 	}
+}
