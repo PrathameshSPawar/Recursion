@@ -1,4 +1,5 @@
-public static char firstUP(String str)
+public class FirstUpperCase{
+	public static char firstUP(String str)
 	{
 		for(int i=0;i<str.length();i++)
 		{
@@ -9,3 +10,4 @@ public static char firstUP(String str)
 		}
 		return 0;
 	}
+}
