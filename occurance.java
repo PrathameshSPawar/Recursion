@@ -1,4 +1,5 @@
-public static int first=-1;
+public class Occurence{
+    public static int first=-1;
     public static int last=-1;
 
     public static void occurance(String str,int indx,char element)
@@ -24,3 +25,4 @@ public static int first=-1;
         }
         occurance(str, indx+1, element);
     }
+}
